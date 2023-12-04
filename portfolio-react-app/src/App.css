@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    color: #F9E0BB;
+}
+
+.projects-table{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

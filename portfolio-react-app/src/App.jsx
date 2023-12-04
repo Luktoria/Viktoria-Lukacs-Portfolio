@@ -6,14 +6,20 @@ import Header from './components/Header';
 import Main from './components/Main'
 import Footer from './components/Footer';
 import projects from './projects';
+import "./App.css";
 // import './App.css'
 
 function trial(projectItem){
   return(
     <Main
     key={projectItem.id}
-    desc={projectItem.desc}
+    title={projectItem.title}
     img={projectItem.img}
+    site={projectItem.liveSite}
+    code={projectItem.codePreview}
+    html={projectItem.languages1}
+    css={projectItem.languages2}
+    javascript={projectItem.languages3}
      />
   );
 }
@@ -23,7 +29,7 @@ function App() {
 
   return (
     <>
-   <h1>{projects.map(trial)}</h1>
+   <div className="projects-table">{projects.map(trial)}</div>
     <Footer />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
