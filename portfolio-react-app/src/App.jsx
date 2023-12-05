@@ -2,8 +2,11 @@
 // import reactLogo from './assets/react.svg'
 // import catImg from '/1992501.jpg'
 // import viteLogo from '/vite.svg'
-import Header from './components/Header';
-import Main from './components/Main'
+import Navbar from './components/Navbar';
+import ProjectsGallery from './components/ProjectsGallery';
+import Introduction from './components/Introduction';
+import Languages from './components/Languages';
+import Tools from './components/Tools';
 import Footer from './components/Footer';
 import projects from './projects';
 import "./App.css";
@@ -11,7 +14,7 @@ import "./App.css";
 
 function trial(projectItem){
   return(
-    <Main
+    <ProjectsGallery
     key={projectItem.id}
     title={projectItem.title}
     img={projectItem.img}
@@ -29,6 +32,21 @@ function App() {
 
   return (
     <>
+    <Navbar/>
+    <hr />
+
+    <Introduction/>
+    <hr />
+
+    <h2 className="languages-heading">Languages and frameworks</h2>
+    <Languages />
+    <hr />
+
+    <h2 className="tools-heading">Tools and Libraries</h2>
+    <Tools />
+    <hr />
+
+    <h1 className="projects-heading">Projects</h1>
    <div className="projects-table">{projects.map(trial)}</div>
     <Footer />
       {/* <div>

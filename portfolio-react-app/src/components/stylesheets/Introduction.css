@@ -1,0 +1,29 @@
+.intro-container{
+    width: 100%;
+    height: 40rem;
+    background-image: url(../../assets/ricardo-resende-Vq3B58_XgjQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.intro-flex{
+    display: flex;
+    height: 40rem;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.greeting{
+    width: 30%;
+    display: grid;
+    align-items: center;
+    align-content: center;
+}
+
+.img-of-me{
+    max-height: 500px;
+    width: auto;
+    border: 6px solid white;
+}
+

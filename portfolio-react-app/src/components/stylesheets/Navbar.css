@@ -1,0 +1,10 @@
+nav{
+text-align: center;
+width: 100%;
+}
+
+nav img{
+    height: 2rem;
+    width: 2rem; 
+    margin-right: 1%;
+}

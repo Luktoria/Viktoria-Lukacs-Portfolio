@@ -1,17 +1,17 @@
 import React from "react";
-import "./Main.css";
+import "./stylesheets/ProjectsGallery.css";
 
 function Main(props){
     return(
         <>
         <div className="project-card">
         
-        <div className="background-img" style={{ backgroundImage: `url(${props.img})`}}></div>
+        <a href={props.site}><div className="background-img" style={{ backgroundImage: `url(${props.img})`}}></div></a>
         {/* <img src={props.img} alt="" /> */}
         <h2>{props.title}</h2>
         <p><span>{props.html + "  " + props.css + "  " + props.javascript}</span></p>
-        <h5 className="website"><a href={props.site}>VISIT PROJECT</a></h5>
-        <h5><a href={props.code}>VIEW CODE</a></h5>
+        <span className="website"><a href={props.site}>VISIT PROJECT</a></span>
+        <span className="code"><a href={props.code}>VIEW CODE</a></span>
         </div>
         </>
     )

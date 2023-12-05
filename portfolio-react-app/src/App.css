@@ -3,6 +3,24 @@ body{
     color: #F9E0BB;
 }
 
+hr{
+    border-color: #F9E0BB;
+    width: 40%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.languages-heading,
+.tools-heading{
+    font-size: 40px;
+    text-align: center;
+}
+
+.projects-heading{
+    font-size: 48px; 
+    text-align: center;
+}
+
 .projects-table{
     display: flex;
     flex-direction: row;

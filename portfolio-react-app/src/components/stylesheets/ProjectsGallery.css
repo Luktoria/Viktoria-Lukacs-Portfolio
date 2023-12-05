@@ -1,0 +1,51 @@
+.project-card {
+display: inline-block;
+text-align: center;
+width: 34rem;
+height: 30rem;
+margin: 5%;
+}
+
+.background-img{
+    width: 32rem;
+    height: 20rem;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.background-img:hover{
+    width: 33rem;
+    height: 21rem;
+    transition: all 0.2s;
+    border: 1.5px solid white;
+}
+
+h5{
+    display: inline-block;
+}
+
+.website{
+    margin-right: 3%;
+}
+
+.website,
+.code{
+    text-decoration: underline;
+    text-decoration-color: #8FC1D4;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 1rem;
+    margin-bottom: 10px;
+}
+
+a{
+    color: #e7ac54;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+a:hover{
+    color: white;
+
+}
