@@ -3,6 +3,15 @@ body{
     color: #F9E0BB;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Alegreya', serif;
+}
+
+h1,
+h2,
+h3{
+    font-weight: 700;
+    letter-spacing: 2px;
+
 }
 
 hr{

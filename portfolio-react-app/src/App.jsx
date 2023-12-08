@@ -41,7 +41,7 @@ function App() {
     <Tools />
     <hr />
 
-    <h1 className="projects-heading">Projects</h1>
+    <h2 className="projects-heading">Projects</h2>
    <div className="projects-table">{projects.map(trial)}</div>
    <hr />
     <Footer />

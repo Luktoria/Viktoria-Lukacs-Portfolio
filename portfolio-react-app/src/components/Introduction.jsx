@@ -19,7 +19,7 @@ function Introduction() {
                     <div className="greeting">
                         <div className="short-introduction">
                             <h1>Nice to meet you! I'm
-                                <span>Viktória Lukács,</span>
+                                <span className="me">Viktória Lukács,</span>
                             </h1>
                             <p>A junior front-end developer based in Haarlem, the Netherlands.</p>
                             <span className="link"><a href="#contacts">CONTACT</a></span>
