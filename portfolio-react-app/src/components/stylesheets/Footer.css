@@ -1,0 +1,30 @@
+.contacts{
+    height: 200px;
+    background-image: url('../../assets/courtney-smith-wrLIzVhWCSI-unsplash-darker.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-info-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+
+.icon{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.phone,
+.email{
+    display: inline-block;
+}

@@ -15,15 +15,76 @@
 }
 
 .greeting{
-    width: 30%;
+    width: 35%;
     display: grid;
-    align-items: center;
-    align-content: center;
 }
 
 .img-of-me{
     max-height: 500px;
     width: auto;
     border: 6px solid white;
+}
+
+
+
+.short-introduction h1{
+    font-size: 3em;
+    margin-bottom: 0;
+    color: #FFC26F;
+}
+
+.short-introduction span{
+    display: inline-block;
+    text-decoration: underline;
+    text-decoration-color: #8FC1D4;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.8rem;
+    padding-right: 2%;
+    color: #e7ac54;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.short-introduction p{
+    font-size: 1.4em;
+}
+
+.button-container{
+    display: inline-block;
+   
+}
+
+.about-button{
+    color: #e7ac54;
+    background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    text-decoration: underline;
+    text-decoration-color: #8FC1D4;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.8rem;
+    width: 150px;
+}
+
+.close{
+    width: 120px;
+}
+
+.about-button img{
+    padding-left: 5px;
+}
+
+.about-button:hover{
+    color: white;
+}
+
+.long-introduction{
+    text-align: justify;
 }
 

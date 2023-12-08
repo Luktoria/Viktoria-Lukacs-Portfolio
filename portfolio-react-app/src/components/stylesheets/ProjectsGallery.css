@@ -18,8 +18,8 @@ margin: 5%;
 .background-img:hover{
     width: 33rem;
     height: 21rem;
-    transition: all 0.2s;
-    border: 1.5px solid white;
+    transition: all 0.4s;
+    /* border: 1.5px solid white; */
 }
 
 h5{

@@ -1,6 +1,8 @@
 body{
     background-color: black;
     color: #F9E0BB;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 hr{
