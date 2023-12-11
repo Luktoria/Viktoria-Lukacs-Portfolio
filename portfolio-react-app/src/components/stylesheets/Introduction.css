@@ -1,8 +1,9 @@
 .intro-container{
     width: 100%;
     height: 40rem;
-    background-image: url(../../assets/ricardo-resende-Vq3B58_XgjQ-unsplash.jpg);
+    background-image: url(../../assets/ricardo-resende-Vq3B58_XgjQ-unsplash_1.jpg);
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -10,7 +11,6 @@
     display: flex;
     height: 40rem;
     align-content: center;
-    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -19,8 +19,14 @@
     display: grid;
 }
 
+.img-container{
+    display: flex;
+    align-items: center;
+ }
+
+
 .img-of-me{
-    max-height: 500px;
+    max-height: 30rem;
     width: auto;
     border: 6px solid white;
 }
@@ -43,6 +49,10 @@
     text-decoration-color: #8FC1D4;
     text-decoration-thickness: 2px;
     text-underline-offset: 0.8rem;
+    
+}
+
+.link{
     padding-right: 2%;
 }
 
@@ -53,6 +63,9 @@
 
 .short-introduction p{
     font-size: 1.4em;
+    color: #F9E0BB;
+    -webkit-text-fill-color: #F9E0BB; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 0.1px white;
 }
 
 .button-container{
@@ -91,3 +104,66 @@
     text-align: justify;
 }
 
+
+@media screen and (max-width: 1149px ) {
+    
+   .short-introduction h1 {
+        font-size: 2em;
+
+    }
+    
+
+}
+
+@media screen and (max-width: 920px ) {
+    
+     .greeting {
+        width: 45%;
+     }
+     
+  
+     .img-of-me {
+        height: 25rem;
+     }
+ 
+ }
+
+ @media screen and (max-width: 768px ) {
+ 
+.intro-container{
+    height: auto;
+}   
+    
+.intro-flex{
+    flex-direction: column-reverse; 
+    height: auto;  
+}
+
+.greeting {
+    width: 100%;
+    text-align: center;
+}
+
+.img-container{
+    justify-content: center;
+    padding-top: 20px;
+}
+ 
+ }
+
+ 
+@media screen and (max-width: 450px) { 
+
+    .link{
+        padding-right: 5%;
+    }
+    
+    .about-button{
+        width: 110px;
+    }
+    
+    .intro-flex{
+        height: 75rem;
+    }
+
+} 

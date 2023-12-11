@@ -1,5 +1,6 @@
 .intro-body{
     text-align: justify;
+    height: 20rem;
 }
 
 
@@ -8,7 +9,19 @@
     width: 90%;
     height: auto;
     margin: 0;
-    font-size: 18px;
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.2)
+    font-size: 1rem;
+    /* text-shadow: 3px 2px #000000; */
+    color: #F9E0BB;
+    -webkit-text-fill-color: #F9E0BB; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 0.1px white;
 }
+
+@media screen and (max-width: 768px  ) {
+    
+    .item {
+ width: 96%;
+ padding: 2%;
+     }
+
+ }
+

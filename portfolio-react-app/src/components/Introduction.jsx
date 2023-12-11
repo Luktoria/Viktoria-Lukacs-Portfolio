@@ -22,6 +22,8 @@ function Introduction() {
                                 <span className="me">Viktória Lukács,</span>
                             </h1>
                             <p>A junior front-end developer based in Haarlem, the Netherlands.</p>
+                    
+                            
                             <span className="link"><a href="#contacts">CONTACT</a></span>
                             <div className="button-container">
                                 {isOpened ?
@@ -36,6 +38,7 @@ function Introduction() {
                                         </button>
                                 }
                             </div>
+                            
                         </div>
 
                         <LongIntro
@@ -44,7 +47,7 @@ function Introduction() {
 
                     </div>
 
-                    <div>
+                    <div className="img-container">
                         <img className="img-of-me" src="./IMG_5009.jpg" alt="" />
                     </div>
                 </div>

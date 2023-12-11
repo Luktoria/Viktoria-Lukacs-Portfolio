@@ -18,7 +18,7 @@ function Footer(){
 
             <div className="contact-info">
                 <img className="icon"src="/envelope-beige.svg" alt="envelope icon" />
-                <p className="email">lukacs.viktoria98@gmail.com</p>
+                <p id="email" className="email">lukacs.viktoria98@gmail.com</p>
             </div>
 
             <div className="contact-info">

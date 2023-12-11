@@ -1,6 +1,6 @@
 .contacts{
     height: 200px;
-    background-image: url('../../assets/courtney-smith-wrLIzVhWCSI-unsplash-darker.jpg');
+    background-image: url('../../assets/courtney-smith-wrLIzVhWCSI-unsplash-darker_1.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -8,15 +8,29 @@
     align-items: center;
 }
 
+.contacts h3{
+    font-size: 30px;
+}
+
 .contact-info-div{
     display: flex;
     flex-direction: column;
+    
 }
 
 .contact-info{
     display: flex;
     align-items: center;
     height: 35px;
+}
+
+.contact-info a{
+    color: #F9E0BB;
+}
+
+.contact-info a:hover{
+    color: white;
+    cursor: pointer;
 }
 
 .icon{
@@ -27,4 +41,29 @@
 .phone,
 .email{
     display: inline-block;
+}
+
+@media screen and (max-width: 450px) {
+    
+    .contacts h3{
+        font-size: 24px;
+    }
+
+    .contacts{
+        flex-direction: column;
+        height: 300px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .contact-info-div{
+        font-size: 14px;
+    }
+
+    .contact-info{
+        justify-content: center;
+    }
+
+
+    
 }

@@ -11,3 +11,12 @@
     font-size: 2.2em;
     color: #e7ac54;
 }
+
+
+@media screen and (max-width: 450px) { 
+
+    .tools-container{
+        flex-direction: column;
+    }
+
+}

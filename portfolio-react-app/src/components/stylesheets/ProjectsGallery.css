@@ -49,3 +49,46 @@ a:hover{
     color: white;
 
 }
+
+
+@media screen and (max-width: 1149px ) {
+    
+    .project-card {
+         width: 20rem;
+         height: auto;
+     }
+
+     .background-img {
+        width: 20rem;
+        height: 12rem;
+     }
+ }
+
+
+ @media screen and (max-width: 768px ) {
+ 
+    .background-img{
+        width: 25rem;
+        height: 16rem;
+    }
+
+    .project-card{
+        width: 25rem;
+    }
+     
+     }
+
+     @media screen and (max-width: 450px) {
+    
+        .background-img{
+            width: 20rem;
+            height: 12rem;
+        }
+    
+        .project-card{
+            width: 20rem;
+            padding: 5% 0;
+        }
+         
+        
+    }
