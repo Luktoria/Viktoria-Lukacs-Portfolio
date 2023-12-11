@@ -19,7 +19,6 @@ margin: 5%;
     width: 33rem;
     height: 21rem;
     transition: all 0.4s;
-    /* border: 1.5px solid white; */
 }
 
 h5{
@@ -88,6 +87,12 @@ a:hover{
         .project-card{
             width: 20rem;
             padding: 5% 0;
+        }
+
+        .background-img:hover{
+            width: 21rem;
+            height: 13rem;
+            transition: all 0.4s;
         }
          
         

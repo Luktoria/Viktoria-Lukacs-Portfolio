@@ -154,6 +154,10 @@
  
 @media screen and (max-width: 450px) { 
 
+    .intro-container{
+        background-image: url(../../assets/ricardo-resende-Vq3B58_XgjQ-unsplash_mobile.jpg)
+    }
+
     .link{
         padding-right: 5%;
     }
