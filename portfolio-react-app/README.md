@@ -1,8 +1,17 @@
-# React + Vite
+# Portfolio overview
+My personal portfolio website, to keep track of my projects.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Built with
+- Semantic HTML5
+- CSS custom properties
+- Flexbox
+- React.jsx version 18.2.0
+- React-spring version 9.7.3
 
-Currently, two official plugins are available:
+### Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Live Site URL: (https://viktoria-lukacs-portfolio-site.web.app/)
+
+### Continued development
+
+In the future I plan to update this website regularly with my newest projects. I also plan to use the website to keep track of my own progress in becoming a professional webdeveloper. 
