@@ -7,7 +7,6 @@ function Main(props){
         <div className="project-card">
         
         <a href={props.site}><div className="background-img" style={{ backgroundImage: `url(${props.img})`}}></div></a>
-        {/* <img src={props.img} alt="" /> */}
         <h3>{props.title}</h3>
         <p><span>{props.html + "  " + props.css + "  " + props.javascript}</span></p>
         <span className="website"><a href={props.site}>VISIT PROJECT</a></span>

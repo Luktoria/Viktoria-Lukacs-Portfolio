@@ -61,6 +61,12 @@ a:hover{
         width: 20rem;
         height: 12rem;
      }
+
+     .background-img:hover{
+        width: 21rem;
+        height: 13rem;
+     }
+
  }
 
 
@@ -74,6 +80,11 @@ a:hover{
     .project-card{
         width: 25rem;
     }
+
+    .background-img:hover {
+        width: 26rem;
+        height: 17rem;
+     }
      
      }
 
@@ -92,6 +103,28 @@ a:hover{
         .background-img:hover{
             width: 21rem;
             height: 13rem;
+            transition: all 0.4s;
+        }
+         
+        
+    }
+
+    
+    @media screen and (max-width: 375px) {
+    
+        .background-img{
+            width: 17rem;
+            height: 11rem;
+        }
+    
+        .project-card{
+            width: 17rem;
+            padding: 5% 0;
+        }
+
+        .background-img:hover{
+            width: 18rem;
+            height: 12rem;
             transition: all 0.4s;
         }
          
