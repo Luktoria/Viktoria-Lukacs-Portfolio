@@ -15,7 +15,7 @@ const projects=[
         languages1: 'HTML',
         languages2: 'CSS',
         languages3: 'VUE.JS',
-        liveSite: "https://frontend-mentor-clock-app.web.app/",
+        liveSite: "https://frontend-mentor-clock-app-teal.vercel.app",
         codePreview: "https://github.com/Luktoria/FrontendMentor-Clock-App",
         img: "/Clock-app-screenshot.png"
     },
