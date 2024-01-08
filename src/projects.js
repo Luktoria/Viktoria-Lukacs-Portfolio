@@ -1,5 +1,16 @@
 const projects=[
     {
+        id: 9,
+        title: 'COFFEEROASTERS WEBSITE',
+        languages1: 'HTML',
+        languages2: 'CSS',
+        languages3: 'REACT.JS',
+        liveSite: 'https://luktoria.github.io/Coffeeroasters-app/',
+        codePreview: 'https://github.com/Luktoria/Coffeeroasters-app',
+        img: '/Coffee-roasters-project.png',
+    },
+
+    {
         id: 8,
         title: 'RECIPES BLOG',
         languages1: 'HTML',
@@ -34,9 +45,9 @@ const projects=[
         title: 'PLANET FACTS SITE',
         languages1: 'HTML',
         languages2: 'CSS',
-        languages3: 'JQUERY',
-        liveSite: "https://luktoria.github.io/Planet-fact-site/",
-        codePreview: "https://github.com/Luktoria/Planet-fact-site/blob/main/earth.html",
+        languages3: 'VUE.JS',
+        liveSite: "https://planet-fact-site-vue-edition.vercel.app",
+        codePreview: "https://github.com/Luktoria/Planet-fact-site-Vue-edition",
         img: "/Planet-facts-site.png"
     },
     {

@@ -28,6 +28,10 @@ function Languages() {
                 <div className="language">
                     <p>VUE.JS</p>
                 </div>
+
+                <div className="language">
+                    <p>ANGULAR.JS</p>
+                </div>
             </div>
         </>
     )
